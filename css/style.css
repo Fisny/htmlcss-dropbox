@@ -34,14 +34,29 @@
     height: 25px; 
 }
 
+.nav-logo{
+    padding-left: 10px;
+}
+
 .nav-text-sn, .nav-text-dr{
     height: 100%;
     line-height: 25px;
 }
 
-li{
+nav li{
     list-style: none;
     display: inline-block;
+    margin-left: 15px;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+.li-inizia{
+    background-color: rgb(0, 68, 255);
+    color: white;
+    height: 100%;
+    width: 50px;
 }
 
 .nav-text-sn{
@@ -52,7 +67,43 @@ li{
 .nav-text-dr{
     width: 500px;   
     border: 1px solid black;
+    padding-left: 100px;
 }
 
+/* BIG NAV */
+.bg-cyan{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(148, 184, 219);
+    padding: 50px 25px 25px 50px;
+}
 
+.bg-cyan > h1{
+    font-size: 50px;
+    padding-bottom: 25px;
+}
 
+.bg-cyan > div{
+    border: 1px solid black;
+    width: 30%;
+    font-size: 25px;
+}
+
+.button-inizia{
+    text-align: center;
+    background-color: rgb(0, 68, 255);
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.button-inizia, a{
+    color: white;
+    text-decoration: none;
+}
+
+.arrow{
+    padding-top: 25px;
+    font-size: 70px;
+}
