@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border: 1px solid black;
+    max-width: 1200px;
+    height: 4000px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*  */
+/* nav */
+
+.nav-bar{
+    border: 1px solid black;
+    height: 25px; 
+}
+
+.nav-text-sn, .nav-text-dr{
+    height: 100%;
+    line-height: 25px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-text-sn{
+    width: 400px;
+    border: 1px solid black;
+}
+
+.nav-text-dr{
+    width: 500px;   
+    border: 1px solid black;
+}
+
+
+
