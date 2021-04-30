@@ -300,9 +300,20 @@ header h1{
     
 }
 
+.parte-float2 img{
+    width: 100%;
+}
+
+.parte-float img{
+    width: 100%;
+}
+
 .parte-float2{
     margin: 0px 50px;
     width: 30%;
     height: 500px;
 }
 
+.section-3 h2{
+    font-size: 32px;
+}
