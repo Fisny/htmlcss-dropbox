@@ -5,10 +5,8 @@
 }
 
 .container{
-    
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 .fl{
@@ -38,6 +36,10 @@
 .container-fix{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.graybg{
+    background-color: rgb(236, 236, 236);
 }
 
 /*  */
@@ -74,12 +76,10 @@ nav li{
 
 .nav-text-sn{
     width: 400px;
-    
 }
 
 .nav-text-dr{
     width: 500px;   
-    
     padding-left: 100px;
 }
 
@@ -316,4 +316,50 @@ header h1{
 
 .section-3 h2{
     font-size: 32px;
+}
+
+/* section 4 */
+
+.section-4 h1{
+    font-size: 50px;
+}
+
+/* section 5  */
+/* color */
+
+.color-section{
+    background-color: brown;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.img-pt1{
+    width: 16.66666666666667%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.img-pt2{
+    width: 33.33333333333333%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.img-pt-sn1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid black;
+    width: 16.66666666666667%;
+    height: 50%;
+}
+
+.img-pt-sn2{
+    position: absolute;
+    bottom: 0;
+    left: 16.66666666666667%;
+    border: 1px solid black;
+    width: 16.66666666666667%;
+    height: 50%;
 }
