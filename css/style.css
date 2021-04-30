@@ -34,6 +34,12 @@
     border: 1px solid rgb(92, 92, 92);
 }
 
+
+.container-fix{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /*  */
 /* nav */
 
@@ -225,11 +231,6 @@ header h1{
 
 /* section */
 
-.container-fix{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .section-team{
     height: 50px;
     line-height: 50px;
@@ -280,5 +281,28 @@ header h1{
 
 .section-right a{
     color: black;
+    padding: 8px;
     
 }
+
+/* section 3 */
+
+.section-3 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.parte-float{
+    width: 30%;
+    height: 500px;
+    margin-bottom: 50px;
+    
+}
+
+.parte-float2{
+    margin: 0px 50px;
+    width: 30%;
+    height: 500px;
+}
+
