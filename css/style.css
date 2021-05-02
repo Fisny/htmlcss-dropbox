@@ -436,3 +436,21 @@ header h1{
     padding: 20px;
     border: 1px solid black;
 }
+
+/* section 7 */
+
+.section-7 hr{
+    width: 100%;
+}
+
+.sec-7-sn{
+    margin: 25px 0px;
+}
+
+.sec-7-dr{
+    margin: 25px 0px;
+}
+
+.sec-7-dr a{
+    color: black;
+}
