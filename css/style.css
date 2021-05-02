@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 .container{
@@ -453,4 +454,35 @@ header h1{
 
 .sec-7-dr a{
     color: black;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+    text-align: left;
+}
+
+.footer-list{
+    width: calc(100% / 5);
+    height: 500px;
+    color: white;
+    padding: 50px;
+}
+
+.footer-list h3{
+    margin-bottom: 25px;
+}
+
+.footer-list li{
+    margin: 20px 0px;
+    font-size: 11px;
+}
+
+footer ul{
+    list-style-type: none;
 }
