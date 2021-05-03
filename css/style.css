@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -39,6 +39,11 @@
     margin: 0 auto;
 }
 
+.container-fix-2{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .graybg{
     background-color: rgb(236, 236, 236);
 }
@@ -46,6 +51,12 @@
 
 section{
     margin: 100px 0 0 0px;
+}
+
+.container-fix-float{
+    
+    height: 900px;
+    margin-top: 25px;
 }
 
 /*  */
@@ -85,7 +96,7 @@ nav li{
 }
 
 .nav-text-dr{
-    width: 500px;   
+       
     padding-left: 100px;
 }
 
@@ -118,6 +129,7 @@ nav li{
     width: 80%;
     height: 50px;
     line-height: 50px;
+    font-size: 18px;
 }
 
 .button-inizia, a{
@@ -144,93 +156,85 @@ div.jumbo-div.fl{
 
 header{
     
-    height: 900px;
+    height: 1000px;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-input:last-child{
-    margin-left: 40px;
-    margin-bottom: 25px;
+.float-section{
+    height: 100%;
+    width: calc(100% / 3);
+    padding: 10px;
 }
 
-header h1{
-    font-size: 51px;
-    padding: 50px 0px;
+.float-sec-{
+    border: 1px solid black;
+    height: 100%;
 }
 
-.float-sn{
-    
-    border: 1px solid rgb(92, 92, 92);
-    width: 30%;
-    height: 700px;
-}
-
-.float-sn p:first-child{
+.float-title{
+    height: 50px;
     text-align: center;
-    padding: 10px 0px;
-    border-bottom: 1px solid rgb(92, 92, 92);
+    line-height: 50px;
+    border-bottom: 1px solid black;
 }
 
-.inside-top{
-    padding: 25px 25px;
+.float-head{
+    height: 150px;
+    padding: 10px;
 }
 
-.float-sn ul{
-    padding-left: 5px;
-    
+.float-head-2{
+    height: 150px;
+    padding: 10px;
+    width: 100%;
 }
 
-.float-sn li{
-    list-style-type: none;
-    text-align: left;
+.float-head p{
+    color: rgb(75, 75, 75);
 }
 
-.prova-gratis{
+.img-icon{
+    width: 10%;
+}
+
+.text-icon{
+    width: 90%;
+}
+
+.float-mid{
+    height: 100px;
+    padding: 10px;
+}
+
+.provalo{
     background-color: rgb(0, 68, 255);
-    width: 80%;
     height: 50px;
     line-height: 50px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    
-}
-
-.prova-gratis a{
-    margin-left: 15%;
     text-align: center;
 }
 
 .acquista{
-    color: rgb(0, 68, 255);
-    
+    margin-top: 10px;
 }
 
-.middle-width{
-    width: 20%;
-    border: 1px solid rgb(92, 92, 92);
-    margin: 25px 25px;
+.float-down{
+    padding: 10px;
+    height: 330px;
 }
 
-.inside-down h3{
-    padding-left: 25px;
-    margin-bottom: 15px;
+.width-linee{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-top: 1px solid black;
+    width: 15%;
 }
 
-.inside-down ul{
-    padding-left: 5px;
+.float-down .img-icon{
+    color: rgb(0, 68, 255);;
 }
-
-.inside-down li{
-    margin-bottom: 10px;
-}
-
-.float-2{
-    margin: 0px 50px;
-}
-
 /* section */
 
 .section-team{
@@ -252,7 +256,6 @@ header h1{
 }
 
 .bg-blue{
-    font-size: 20px;
     padding: 10px 20px;
     background-color: rgb(0, 68, 255);;
 }
@@ -284,6 +287,7 @@ header h1{
 .section-right a{
     color: black;
     padding: 8px;
+    font-size: 14px;
     
 }
 
@@ -291,7 +295,7 @@ header h1{
 
 .section-3 h1{
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
 }
 
@@ -329,17 +333,14 @@ header h1{
 /* section 5  */
 /* color */
 
-.color-section{
-    
+.color-section{  
     width: 100%;
     height: 500px;
-    position: relative;
 }
 
 .img-pt1{
     width: calc(100% / 3);
     height: 100%;
-
     text-align: center;
 }
 
@@ -469,7 +470,7 @@ footer{
 
 .footer-list{
     width: calc(100% / 5);
-    height: 500px;
+    height: 100%;
     color: white;
     padding: 50px;
 }
