@@ -163,6 +163,11 @@ header{
     margin-bottom: 150px;
 }
 
+.input-radio{
+    margin-left: 20px;
+    display: inline-block;
+}
+
 .float-section{
     height: 100%;
     width: calc(100% / 3);
